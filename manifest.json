@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "KPEZDMC Udemy Data Srapper",
+  "description": "Developed by: Bahar Ali (bahar.ali@kpezdmc.org.pk)",
+  "version": "1",
+
+  "icons": { "16": "icon.png",
+           "48": "icon.png",
+          "128": "icon.png" },  
+
+ 
+  "content_scripts": [
+    {
+ 
+      "matches": ["https://*/*"],
+    "js":["undead.js","jquery.min.js"]
+    
+    }
+  ]
+}
